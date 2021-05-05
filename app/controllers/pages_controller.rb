@@ -4,4 +4,7 @@ class PagesController < ApplicationController
     render :home
   end
 
+  def team
+    render :team
+  end
 end
